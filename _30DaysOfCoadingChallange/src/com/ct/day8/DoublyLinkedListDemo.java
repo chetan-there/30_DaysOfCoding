@@ -2,13 +2,11 @@ package com.ct.day8;
 
 class DoubleNode {
     int data;
-    DoubleNode next;
-    DoubleNode prev;
+    DoubleNode next ,prev;
 
     public DoubleNode(int data) {
         this.data = data;
-        this.next = null;
-        this.prev = null;
+        this.prev = this.next = null;
     }
 }
 
